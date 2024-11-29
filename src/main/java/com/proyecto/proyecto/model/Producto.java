@@ -7,7 +7,7 @@ import lombok.Data;
 public class Producto {
     private Integer idProducto;
     private String nombre;
-    private int valor;
+    private double valor;
     private int cantidad;
     
   

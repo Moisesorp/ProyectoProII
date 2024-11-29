@@ -64,7 +64,7 @@ public class ProductoController {
         
         return null;
     }
-    @DeleteMapping("/{idProducto}")
+    @DeleteMapping("/borrar/{idProducto}")
     public Producto deleteproducto(@PathVariable int idProducto) {
         for (Producto p : productos) {
             if (p.getIdProducto() == idProducto) {
